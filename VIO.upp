@@ -1,0 +1,16 @@
+description "Voice-IO using alsa\377";
+
+uses
+	utilfuncs;
+
+library
+	asound,
+	pthread;
+
+file
+	vio.h,
+	vio.cpp;
+
+mainconfig
+	"" = "";
+
